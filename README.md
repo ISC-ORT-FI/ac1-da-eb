@@ -20,3 +20,12 @@ El resultado debe ser la web de "Caffé" visualizada desde la url del LoadBalanc
 ---
 Damian Alvarez, Eric Borba
 ---
+      ......
+Correcciones realizadas
+      ......
+
+Cambio "profile" en Terraform.tfvars y en variables.tf
+Editamos el puerto "88" por "80" en el low balancer
+Modificamos la ruta de private_key a un archivo nuevo creado
+Modificamos el CIDR 0.0.0.0/0 en la route_table en el archivo network.tf
+Se agrega la subnetid al resource instance
