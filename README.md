@@ -16,3 +16,18 @@ Encontrar los errores en el código de Terraform y corregirlos. El código despl
 El resultado debe ser la web de "Caffé" visualizada desde la url del LoadBalancer obtenida del OUTPUT. 
 
 ![caffe img](./img/caffe.png)
+
+---
+Damian Alvarez, Eric Borba
+---
+
+    .....
+Coreciones realizadas
+    .....
+ 
+- Cambiamos el perfil en Terraform.tfvars y en variables.tf
+- Corregimos los puertos "88" por "80" en el low balancer
+- Modificamos el CIDR en el route_table a la 0.0.0.0/0
+- Se agrega la subnetid a la instancia
+- Cambiamos el archivo y ruta de private_key a uno propio
+
