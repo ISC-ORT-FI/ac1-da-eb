@@ -31,3 +31,6 @@ Coreciones realizadas
 - Se agrega la subnetid a la instancia
 - Cambiamos el archivo y ruta de private_key a uno propio
 
+
+Solucion: Se pudo acceder a la pagina web de la instancia a travez del LB.
+
